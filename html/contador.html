@@ -5,12 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
     <script src="code.js"></script>
+    <script src="/html/contador.js"></script>
 </head>
 
 <body class="bodyIndex">
+    <img src="/nombre.png" alt="" style="width: 25%;position: absolute;
+    margin: -65% 0;">
+
+    <h1>Te quedan:</h1>
+    <span id="countdown"></span>
+
+    <audio src="/PhoneRinging.mp3"  id="audio"></audio>
+
+    <a href="/html/ruleta.html"><button class="btn">Ir a Ruleta</button></a>
+
     <div style="background: #e9bf67; 
         width: 60%; 
         height: 52%;
@@ -26,20 +37,6 @@
         z-index: -1;
         margin: -20%;">
     </div>
-
-    <div style="background: #cc6b52;
-        width: 100%; 
-        height: 10%;
-        position: absolute;
-        z-index: -2;
-        margin: -35% 0px;">
-    </div>
-
-    <div style="margin: 0px 20px;">
-        <img src="nombre.png" class="nombre" alt="">
-    </div>
-    <a href="/html/ruleta.html"> <button class="btn">Jugar</button></a>
-
 </body>
 
 </html>

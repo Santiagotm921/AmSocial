@@ -2,14 +2,14 @@ var colors = [
     "#95969c",
     "#108ab1",
     "#f3a261",
-    "#f04770",
     "#06d7a0",
-    "#95969c",
+    "#c44f68",
+    "#ffd167",
     "#108ab1",
     "#f3a261",
     "#95969c",
     "#06d7a0",
-    "#F35B20",
+    "#c44f68",
     "#ffd167"]
 
 var restaraunts = [
@@ -18,7 +18,7 @@ var restaraunts = [
     "Mímicas",
     "La pregunta",
     "Dibujar",
-    "Vuelve a tirar",
+    "P. prohibidas",
     "Marcas",
     "Mímicas",
     "Vuelve a tirar",

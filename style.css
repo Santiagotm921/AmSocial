@@ -1,17 +1,26 @@
-body,html {
+body,
+html {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.bodyIndex {
     transition: linear 2.5s;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #2d7b9d;
     min-height: 100vh;
-    justify-content: center; 
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
+    justify-content: center;
 }
 
 .bodyraro {
     background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
 }
 
 .bodyraro__img {
@@ -28,14 +37,34 @@ input {
     font-size: 20px;
 }
 
-.btn {
-    border: none;
-    background: #c44f68;
+span {
     color: white;
-    width: 200px;
-    height: 40px;
-    border-radius: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+
+}
+
+.btn {
+    box-shadow: inset 0px 39px 0px -24px #e67a73;
+    background-color: #e4685d;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b23e35;
     font-family: "Montserrat", sans-serif;
+    border: none;
+    width: 100px;
+    height: 55px;
 }
 
 .nombre {
