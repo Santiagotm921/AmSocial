@@ -9,7 +9,7 @@ function updateClock() {
         console.log('Final');
 
         function sound() {
-            audio.src = "/PhoneRinging.mp3"
+            audio.src = "/Alarma.mp3"
             audio.play();
         }
         sound();
