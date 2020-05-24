@@ -9,7 +9,7 @@ function updateClock() {
         console.log('Final');
 
         function sound() {
-            audio.src = "/Alarma.mp3"
+            audio.src = "/AmSocial/Alarma.mp3"
             audio.play();
         }
         sound();
